@@ -50,9 +50,9 @@ Gem::Specification.new do |spec| # rubocop:disable Metrics/BlockLength
     spec.add_dependency 'poltergeist'
     spec.add_dependency 'pry'
     spec.add_dependency 'rspec-rails'
-    spec.add_dependency 'selenium-webdriver', '2.53.4'
+    spec.add_dependency 'selenium-webdriver', '>= 2.53.4'
     spec.add_dependency 'timecop'
-    spec.add_dependency 'unparser', '0.2.5'
+    spec.add_dependency 'unparser', '>= 0.2.5'
 
     # Test app dependencies
     spec.add_development_dependency 'chromedriver-helper'
